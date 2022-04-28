@@ -2,6 +2,11 @@
 
 A simple application to create and view documents.
 
+**Created using**<br>
+Vite<br>
+React<br>
+Sass<br>
+
 **Features**<br>
 -Create a new document (simple, advanced or custom) based on characteristics (title, text, date, image)<br>
 -Filter documents based on type<br>
