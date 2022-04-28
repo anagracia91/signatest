@@ -3,7 +3,7 @@ import { addDocument } from '../../store/actions/DocumentActions';
 import { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
-import './AddDocument.css';
+import './AddDocument.scss';
 
 export default function AddDocument() {
 	const dispatch = useDispatch();

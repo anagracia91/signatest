@@ -4,7 +4,7 @@ import Pagination from '../../components/Pagination/Pagination';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectDocuments } from '../../store/reducers/DocumentReducer';
 import { getDocs, removeDocument } from '../../store/actions/DocumentActions';
-import './DocumentListing.css';
+import './DocumentListing.scss';
 
 export default function DocumentListing() {
 	const dispatch = useDispatch();

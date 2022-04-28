@@ -3,18 +3,18 @@
 	flex-direction: column;
 	align-items: center;
 	gap: 16px;
-}
 
-.document-container img {
-	width: 450px;
+	img {
+		width: 450px;
+	}
+
+	button {
+		padding: 8px;
+	}
 }
 
 .document-footer-container {
 	display: flex;
 	align-items: center;
 	gap: 32px;
-}
-
-.document-container button {
-	padding: 8px;
 }

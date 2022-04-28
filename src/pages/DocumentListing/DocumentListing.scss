@@ -11,20 +11,20 @@
 	padding: 16px 24px;
 	border: 1px black solid;
 	border-radius: 16px;
-}
 
-.list-element img {
-	max-width: 200px;
-	margin-right: 30px;
-}
+	img {
+		max-width: 200px;
+		margin-right: 30px;
+	}
 
-.list-element button {
-	padding: 8px;
-	margin-top: 0;
-	margin-right: 16px;
-	border: 1px black solid;
-	font-size: 16px;
-	background-color: white;
+	button {
+		padding: 8px;
+		margin-top: 0;
+		margin-right: 16px;
+		border: 1px black solid;
+		font-size: 16px;
+		background-color: white;
+	}
 }
 
 a {
