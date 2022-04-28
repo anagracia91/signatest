@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeDocument, getDocuments } from '../../store/actions/DocumentActions';
 import { selectDocuments } from '../../store/reducers/DocumentReducer';
-import './ViewDocument.css';
+import './ViewDocument.scss';
 
 export default function ViewDocument() {
 	const { id } = useParams();

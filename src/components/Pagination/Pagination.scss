@@ -1,0 +1,40 @@
+.gridHeader {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 0;
+	align-items: center;
+}
+
+.gridFooter {
+	display: flex;
+	justify-content: flex-end;
+	margin: 2rem 0 4rem;
+	align-items: center;
+}
+
+.pagination {
+	list-style-type: none;
+	display: flex;
+	flex-grow: 1;
+	justify-content: flex-end;
+	align-items: center;
+
+	li {
+		margin-right: 1.5rem;
+
+		:hover {
+			cursor: pointer;
+		}
+
+		span {
+			display: inline-block;
+			font-size: 1.5rem;
+			line-height: 3rem;
+			text-align: center;
+			font-weight: bold;
+			width: 3rem;
+			height: 3rem;
+			border-radius: 5px;
+		}
+	}
+}

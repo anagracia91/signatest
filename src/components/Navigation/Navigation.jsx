@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Navigation.css';
+import './Navigation.scss';
 import logo from '../../assets/logo.png';
 
 export default function Navigation() {
