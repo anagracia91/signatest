@@ -1,11 +1,13 @@
 # signatest
 
-**Features**
--Create a new document (simple, advanced or custom) based on characteristics (title, text, date, image)
--Filter documents based on type
--View documents individually
--Delete documents from list view or detailed view
--Pagination
+A simple application to create and view documents.
 
-**To execute the project**
+**Features**<br>
+-Create a new document (simple, advanced or custom) based on characteristics (title, text, date, image)<br>
+-Filter documents based on type<br>
+-View documents individually<br>
+-Delete documents from list view or detailed view<br>
+-Pagination<br>
+
+**To execute the project**<br>
 yarn run dev
