@@ -1,0 +1,3 @@
+export const GET_DOCUMENTS = 'GET_DOCUMENTS';
+export const REMOVE_DOCUMENT = 'REMOVE_DOCUMENT';
+export const ADD_DOCUMENT = 'ADD_DOCUMENT';
